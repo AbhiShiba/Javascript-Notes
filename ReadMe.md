@@ -9,7 +9,7 @@
 
     name.displayName();
 
-In the above example this refers to the object.
+In the above example this refers to the object i.e name.
 
 -> If this is part of normal function it reference to the global object.
 (i.e if its browser global is window object. In node it is node global)

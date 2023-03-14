@@ -3,7 +3,7 @@
 const name = {
     fname : "first name",
     displayName () {
-        console.log(this);
+        // console.log(this);
     }
 }
 
@@ -13,7 +13,7 @@ name.displayName();
 // Example 2
 
 function displayMyName () {
-    console.log(this);
+    // console.log(this);
 }
 
 displayMyName()
@@ -21,7 +21,7 @@ displayMyName()
 
 function Play(title) {
     this.title =  title;
-    console.log(this);
+    // console.log(this);
 }
 
 const start = new Play("Game");// here new creates empty object {}
@@ -43,7 +43,7 @@ const games = {
     title : ["game1","game2","game3"],
     playGame () {
         this.title.forEach((i) => {
-            console.log(this,i);
+            // console.log(this,i);
         })
     } 
 }
@@ -55,10 +55,15 @@ const show = {
     title : "first",
     screen () {
         const play = () => {
-            console.log(this);
+            // console.log(this);
         }
         play();
     }
 }
 
 show.screen()
+
+
+// let arr = [1,2,[1,2],3,[4,5,[6,7]]];
+
+// output = [1,2,1,2,3,4,5,6,7]

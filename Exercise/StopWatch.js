@@ -21,7 +21,7 @@ stop.innerText = "Stop";
 pause.disabled = true;
 stop.disabled = true;
 
-body.append(divElement, Start, pause, stop);
+// body.append(divElement, Start, pause, stop);
 
 Start.addEventListener("click", handleStartStopWatch);
 pause.addEventListener("click", handleStopStopWatch);
